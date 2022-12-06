@@ -1,0 +1,40 @@
+.home {
+  background-color: black;
+  color: white;
+  padding: 5% 10%;
+  min-height: 100vh;
+  input {
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 2rem;
+    border-bottom: white 2px solid;
+    font-weight: 100;
+  }
+  ::placeholder {
+    color: white;
+    font-weight: lighter;
+  }
+  input::-webkit-calendar-picker-indicator {
+    background-color: inherit;
+  }
+
+  .art-container {
+    margin-top: 10%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+  }
+}
+
+.image-container {
+  width: 100%;
+  img {
+    object-fit: contain;
+    width: 100%;
+  }
+}
+
+span {
+  font-weight: 100;
+}
